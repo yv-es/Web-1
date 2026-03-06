@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formatação</h2>
+    <p>Lorem ipsum <strong>dolor</strong> sit amet consectetur adipisicing elit. Consequatur dolores magni labore doloribus eos magnam quidem maiores tenetur cumque fugit rerum veniam maxime dolor unde, dicta facere? Sed, nostrum ipsam!</p>
+    <pre>
+        Etapa 1 -->  Etapa 2 --> Fim
+    </pre>
+    <p>2 <sup>8</sup> = 258</p>
+    <p><del>Este texto está errado.</del><u>Este texto está certo.</u></p>
+    <hr>
+    <h2>Lista</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ul>
+            <li>Subitem 1</li>
+            <li>Subitem 2</li>
+        </ul>
+        <li>Item 3</li>
+    </ol>
+    <h2>Tabela 1</h2>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td>X</td>
+                <th colspan="2" rowspan="2">X</th>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td>X</td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Tabela 2</h2>
+    <table border="1">
+        <caption>Contatos</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana</td>
+                <td>33333-3333</td>
+            </tr>
+            <tr>
+                <td>Mário</td>
+                <td>33333-1234</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Formulário</h2>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Dados</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" autofocus required><br>
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="endereco" id="endereco"><br>
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade"><br>
+            <label for="sexo">Sexo:</label>
+            <select name="sexo" id="sexo">
+                <option value="masculino" selected>Masculino</option>
+                <option value="feminino" >Feminino</option>
+            </select><br>
+            <label>Tipo Sanguíneo:</label><br>
+            <input type="radio" name="tipoSanguineo" id="A" value="A" checked>
+            <label for="A">A</label>
+            <input type="radio" name="tipoSanguineo" id="B" value="B">
+            <label for="B">B</label>
+            <input type="radio" name="tipoSanguineo" id="AB" value="AB">
+            <label for="AB">AB</label>
+            <input type="radio" name="tipoSanguineo" id="O" value="O">
+            <label for="O">O</label>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+    <h2>Multimídia e incorporações</h2>
+    <article>
+        <p>IFTM</p>
+        <iframe src="http:\\www.iftm.edu.br" frameborder="0" height="200" width="500" title="IFTM"></iframe>
+    </article>
+    <video src="320" height="420">
+        <source src="video/jill-if-you-compare-re1-jill-to-the-new-jill-it-will-be-sad-because-she-was-just-a-little-cutie-but-now-she-is-broken-scenepack-ethanwinteres-jillvalentine-jillvalentineedit-residentevil-residenteviledit-resident.mp4" type="video/mp4">
+    </video>
+    <audio controls autoplay>
+        <source src="audio/The Twin Moon Knight - Elden Ring Shadow Of The Erdtree OST Official Soundtrack Original Score.mp3" type="audio/mp3">
+    </audio><br>
+    <iframe width="420" height="315"
+    src="https://www.youtube.com/watch?v=DtFCniyYTrs">
+    </iframe>
+</body>
+</html>
