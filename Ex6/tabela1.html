@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border = "1">
+        <caption>Teste com células mescladas</caption>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Média</th>
+                <th rowspan="2">Olhos Vermelhos</th>
+            </tr>
+            <tr>
+                <th>altura</th>
+                <th>peso</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Masculinos</th>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <th>Femininos</th>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table border="1">
+    <caption>Exemplo tabela aninhada</caption>
+        <thead>
+            <tr>
+                <th rowspan="3" colspan="2">CI</th>
+                <th rowspan="3">Todos os gêneros</th>
+                <th colspan="2">Por gêneros</th>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>Masculinos</th>
+                                <th>Femininos</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>9215604</td>
+                                <td>4512358</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tfoot>
+                <tr>
+                    <th>Rural</th>
+                    <td>6521458</td>
+                    <td>4215389</td>
+                    <td>4152348</td>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Turma</th>
+                <th>Horário</th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5">2p</td>
+                <th>19:00-19:50</th>
+                <td>E.D</td>
+                <td>IAW</td>
+                <td>Mod. BD</td>
+                <td>E. S.</td>
+                <td>Empreendedorismo</td>
+            </tr>
+            <tr>
+                <th>19:50-20:40</th>
+                <td>E.D.</td>
+                <td>IAW</td>
+                <td>Mod. BD</td>
+                <td>E.S.</td>
+                <td>E.D.</td>
+            </tr>
+            <tr>
+                <th>20:40-20:50</th>
+                <td colspan="5">Intervalo</td>
+            </tr>
+            <tr>
+                <th>20:50-21:40</th>
+                <td>E.D.</td>
+                <td>IAW</td>
+                <td>E.S.</td>
+                <td>MOD. BD</td>
+                <td>E.D.</td>
+            </tr>
+            <tr>
+                <th>21:40-22:30</th>
+                <td>E.D.</td>
+                <td>IAW</td>
+                <td>E.S.</td>
+                <td>MOD. BD</td>
+                <td>E.D.</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="4">Equipamentos adquiridos</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Item Num.</th>
+                <th rowspan="2">Item Figura</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <th>Instalação, etc.</th>
+                <th>Custo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1.</td>
+                <td rowspan="2">
+                    <figure>
+                        <img src="imagens/Screenshot_1.png" alt="jill" width="60" height="60">
+                    </figure>
+                </td>
+                <td>Jill Valentine</td>
+                <td>400,00</td>
+            </tr>
+            <tr>
+                <td>Instalação, etc.</td>
+                <td>20,00</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2.</td>
+                <td rowspan="2">
+                    <figure>
+                        <img src="imagens/tumblr_492fd56c44ef61d3f8a9fd3228011667_b95d285d_400.jpg" alt="yves"  width="60" height="60">
+                    </figure>
+                </td>
+                <td>Yves lindinha</td>
+                <td>50,00</td>
+            </tr>
+            <tr>
+                <td>Instalação, etc.</td>
+                <td>14,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4">Equipamentos adquiridos</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
