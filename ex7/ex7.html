@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="get">
+        <h2>Campo de senha: type = password</h2>
+        <label for="senha"></label>
+        <input type="password" name = "senha" id = "senha" autofocus required>
+
+        <h2>Campo para escolher cor: type = "color"</h2>
+        <label for="cor"></label>
+        <input type="color" name = "cor" id = "cor">
+
+        <h2>Campo para escolher data: type = "date"</h2>
+        <label for="data"></label>
+        <input type="date" name = "data" id = "data"> 
+
+        <h2>Campo para escolher hora: type = "time"</h2>
+        <label for="horario"></label>
+        <input type="time" name = "horario" id = "horario">
+
+        <h2>Campo para escolher data e hora: type = "datetime-local"</h2>
+        <label for="horarioData"></label>
+        <input type="datetime-local" name = "horarioData" id="horarioData">
+
+        <h2>Campo para escolher mês: type = "month"</h2>
+        <label for="mes"></label>
+        <input type="month" name = "mes" id = "mes">
+
+        <h2>Campo para escolher a semana: type = "week"</h2>
+        <label for="semana"></label>
+        <input type="week" name="semana" id="semana ">
+
+        <h2>Campo para receber endereço de email: type = "email"</h2>
+        <label for="email"></label>
+        <input type="email" name="email" id="email">
+
+        <h2>Imagem com botão de submissão: type = "image"</h2>
+        <input type="image" name="imagem" id="imagem" src="imagens/2b2c175ca2c5d30997893860f85786a1.gif" width="70">
+
+        <h2>Campo para enviar um único arquivo DOC: type = "file"</h2>
+        <label for="arquivo"></label>
+        <input type="file" name = "arquivo" id = "arquivo">
+
+        <h2>Campo para enviar um único arquivo DOC: type = "file"</h2>
+        <label for="arquivos"></label>
+        <input type="file" name = "arquivos" id = "arquivos" multiple>
+
+        <h2>Campo de entrada escondido - neste exemplo o valor é igual 321: type="hidden"</h2>
+        <label for="hidden"></label>
+        <input type="hidden" name = "hidden" id = "hidden" value = "321">
+
+        <h2>Campo para receber números inteiros: type = "number"</h2>
+        <label for="num"></label>
+        <input type="number" name = "num" id = "num">
+
+        <h2>Campo para receber números inteiros de 0 a 10: type = "number"</h2>
+        <label for="numLimitado"></label>
+        <input type="number" name = "numLimitado" id = "numLimitado" min="0" max="10">
+
+        <h2>Campo para receber números com casas decimais: type = "number"</h2>
+        <label for="numDecimal"></label>
+        <input type="number" name="numDecimal" id="numDecimal" step="any" placeholder="0.00">
+
+        <h2>Campo de faixa de valores de 0 a 10 com saltos de 2 a 2: type="range"</h2>
+        <label for="intevalo"></label>
+        <input type="range" name="intevalo" id="intevalo" min="0" max="10" step="2">
+
+        <h2>Campo de pesquisa: type="search"</h2>
+        <label for="pesquisa"></label>
+        <input type="search" name="pesquisa" id = "pesquisa" value="Botao para apagar -->:">
+
+        <h2>Campo para entrada de número de telefone: type="tel"</h2>
+        <label for="telefone"></label>
+        <input type="tel" name="telefone" id="telefone" placeholder="(34)1234-5678">  
+        
+        <h2>Campo para entrada de URL: type="url"</h2>
+        <label for="url"></label>
+        <input type="url" name="url" id="url">
+
+        <h2>Botão submit com imagem: type="submit"</h2>
+        <button type="submit">
+            Enviar<img src="imagens/763723bdcc54311a3cc239bed3a328dd.jpg" alt="" width="100">
+        </button>
+        
+        <h2>Lista de opções com agrupamento: select, optgroup e option</h2>
+        <select name="lista" id="lista">
+            <optgroup label="Regiao Sudeste">
+                <option value="SP">São paulo</option>
+                <option value="MG">Minas gerais</option>
+            </optgroup>
+            <optgroup label="Região Sul">
+                <option value="PR">Paraná</option>
+                <option value="RS">Rio grande do sul</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Informações Pessoais</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" name="Nome" id="Nome" autofocus required><br><br>
+    
+        <label for="CPF">CPF:</label>
+        <input type="text" name="CPF" id="CPF" autofocus required placeholder="000.000.000-00" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}"><br><br>
+    
+        <label for="DataNascimento">Data de Nascimento:</label>
+        <input type="date" name="DataNascimento" id="DataNascimento"><br><br>
+    
+        <label for="Endereço">Endereço</label>
+        <input type="text" name="Endereço" id="Endereço" autofocus required><br><br>
+    
+        <label for="Sexo">Sexo:</label>
+        <select name="Sexo" id="Sexo">
+            <option value="fem">Feminino</option>
+            <option value="mas">Masculino</option>
+        </select><br><br>
+
+        <label for="Telefone">Telefone:</label>
+        <input type="tel" name="Telefone" id="Telefone" placeholder="(11) 98765-4321">
+    </fieldset>
+
+    <fieldset>
+        <legend>Informações de Login</legend>
+        <label for="Login">Login:</label>
+        <input type="text" name="Login" id="Login"><br><br>
+
+        <label for="Senha">Senha:</label>
+        <input type="password" name="Senha" id="Senha"><br>
+    </fieldset><br>
+    <button type="button">Enviar</button>
+    <button type="reset">Resetar</button>
+    <figure>
+        <img src="imagens/a61361f53c7e5aec333367a4807116f1.jpg" alt="cachorroaifollou" width="300" height="300">
+        <figcaption>Cachorro ai folou</figcaption>
+    </figure>
+</body>
+</html>
