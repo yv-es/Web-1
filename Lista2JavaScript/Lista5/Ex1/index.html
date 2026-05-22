@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Exercício 1</h2>
+
+    <label for="texto"></label>
+    <input type="text" name="texto" id="texto" placeholder="Digite seu texto aqui">
+    <button type="submit" value="testar" onclick="validaTexto()">Testar</button>
+    <br><br>
+    
+    <label for="cpf"></label>
+    <input type="text" name="cpf" id="cpf" placeholder="Digite seu cpf aqui">
+    <button type="submit" value="testar" onclick="validaCPF()">Testar</button>
+    <br><br>
+    
+    <h2>Exercício 2</h2>
+    <label for="texto1"></label>
+    <input type="text" name="texto1" id="texto1" onkeyup="contaLetras()" >
+    <span id="resultado">0</span>
+    <br><br>
+    
+    <h2>Exercício 3</h2>
+    <label for="texto2"></label>
+    <input type="text" name="texto2" id="texto2">
+    <button type="submit" value="gerar" onclick="quebraString()">Gerar</button>
+    <div id="div01"></div>
+
+    <h2>Exercício 4</h2>
+    <form name="form" onsubmit="return validaForm()" method="get">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome"><br>
+
+        <label for="dataNascimento">Data de Nascimento:</label>
+        <input type="date" name="dataNascimento" id="dataNascimento"><br>
+
+        <label for="qntFilhos">Quantidade de filhos:</label>
+        <input type="number" name="qntFilhos" id="qntFilhos"><br>
+        <button type="submit(event)">Enviar</button>
+    </form>
+    
+    <script src="ex1.js" defer></script>
+</body>
+</html>

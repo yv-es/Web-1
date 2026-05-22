@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tarefas</h1>
+    <span id="tarefas">
+        <div>
+            <input type="checkbox" name="tarefa" value="tarefa" class="tarefa">
+            <label for="tarefa">Tarefa 1</label>
+            <button type="button" class="remover botao-verde" onclick="removeLinha(this)">remover</button>
+        </div>
+    </span>
+
+    <div id="div01">
+        <input type="text" name="inserir-tarefa" placeholder="Adicionar uma tarefa" id="inserir-tarefa">
+        <button type="button" id="inserir" class="botao-verde" onclick="insereTarefa()">Inserir</button>
+    </div>
+
+    <br>
+    <button type="button" class="botao-verde" id="botao-excluir" onclick="excluirTarefasConcluidas()">Excluir tarefas concluídas</button>
+    <hr>
+    <span id="span-column">
+        <div id="botoes">
+            <button type="button" id="botao-1" class="botao-selecionado" onclick="clickei(this)">Dica 01</button>
+            <button type="button" id="botao-2" class="botao-nao-selecionado" onclick="clickei(this)"">Dica 02</button>
+            <button type="button" id="botao-3" class="botao-nao-selecionado" onclick="clickei(this)">Dica 03</button>
+        </div>
+        <div id="conteudos">
+            <p class="conteudo-selecionado" id="conteudo-1">Conteúdo da dica 01.</p>
+            <p class="conteudo-nao-selecionado" id="conteudo-2">Conteúdo da dica 02.</p>
+            <p class="conteudo-nao-selecionado" id="conteudo-3">Conteúdo da dica 03.</p>
+        </div>
+    </span>
+    <script src="ex.js"></script>
+</body>
+</html>
